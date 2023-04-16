@@ -1,0 +1,46 @@
+Icon =
+IF (
+    Sheet1[Clock ] = "1",
+    UNICHAR ( 128336 ),
+    IF (
+        Sheet1[Clock ] = "2",
+        UNICHAR ( 128337 ),
+        IF (
+            Sheet1[Clock ] = "3",
+            UNICHAR ( 128338 ),
+            IF (
+                Sheet1[Clock ] = "4",
+                UNICHAR ( 128339 ),
+                IF (
+                    Sheet1[Clock ] = "5",
+                    UNICHAR ( 128340 ),
+                    IF (
+                        Sheet1[Clock ] = "6",
+                        UNICHAR ( 128341 ),
+                        IF (
+                            Sheet1[Clock ] = "7",
+                            UNICHAR ( 128342 ),
+                            IF (
+                                Sheet1[Clock ] = "8",
+                                UNICHAR ( 128343 ),
+                                IF (
+                                    Sheet1[Clock ] = "9",
+                                    UNICHAR ( 128344 ),
+                                    IF (
+                                        Sheet1[Clock ] = "10",
+                                        UNICHAR ( 128345 ),
+                                        IF (
+                                            Sheet1[Clock ] = "11",
+                                            UNICHAR ( 128346 ),
+                                            IF ( Sheet1[Clock ] = "12", UNICHAR ( 128347 ) )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)

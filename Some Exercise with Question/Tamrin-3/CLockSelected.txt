@@ -1,0 +1,1 @@
+CLockSelected = SELECTEDVALUE(Sheet1[ClockIcon])
